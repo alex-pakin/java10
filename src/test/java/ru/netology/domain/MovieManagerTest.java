@@ -3,7 +3,7 @@ package ru.netology.domain;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class MovieManagerTest { 
+public class MovieManagerTest {
 
     @Test
     public void shouldAddMovies () {
@@ -38,7 +38,7 @@ public class MovieManagerTest {
     @Test
     public void shouldFindLast2 () {
         MovieManager manager = new MovieManager(4);
-        int movieAmount = 7;
+        int movieAmount = 8;
         Movie [] movies = new Movie[movieAmount];
         for (int i = 0; i < movieAmount; i++) {
             Movie newMovie = new Movie();
