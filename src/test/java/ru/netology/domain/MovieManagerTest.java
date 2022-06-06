@@ -46,6 +46,6 @@ public class MovieManagerTest {
             movies[i] = newMovie;
         }
         Movie [] actual = manager.findLast();
-        Movie [] expected = {movies[6],movies[5],movies[4],movies[3]};
+        Movie [] expected = {movies[7],movies[6],movies[5],movies[4]};
     }
 }
